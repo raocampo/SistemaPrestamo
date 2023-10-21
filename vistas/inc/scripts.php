@@ -19,3 +19,5 @@
 	<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 
 	<script src="<?php echo servidor; ?>vistas/js/main.js" ></script>
+
+	<script src="<?php echo servidor; ?>vistas/js/avisos.js" ></script>

@@ -142,7 +142,7 @@
                 if($pagina == $i){
                     $tabla.='<li class = "page-item"><a class="page-link active" href="'.$url.$i.'/">'.$i.'</a></li>';
                 }else{
-
+                    $tabla.='<li class = "page-item"><a class="page-link" href="'.$url.$i.'/">'.$i.'</a></li>';
                 }
 
                 $contador++;
