@@ -29,7 +29,7 @@
             <thead>
                 <tr class="text-center roboto-medium">
                     <th>#</th>
-                    <th>DNI</th>
+                    <th>Ced_Ident/RUC</th>
                     <th>NOMBRE</th>
                     <th>APELLIDO</th>
                     <th>TELEFONO</th>
