@@ -38,6 +38,20 @@
                 exit();
             }
 
+            /* Verificar la integridad de los datos */
+
+            if(mainModel::verificaDato("[0-9]{10,20}",$ident)){
+                $avisoAlert = [
+                    "Aviso" => "simple",
+                    "Titulo" => "Ocurrio un error inesperado",
+                    "Texto" => "La Cedula o RUC no coincide con el formato",
+                    "Tipo" => "error"
+                ];
+                echo json_encode($avisoAlert);
+
+                exit();
+            }
+
         }
 
     }

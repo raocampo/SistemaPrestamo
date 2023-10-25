@@ -31,20 +31,20 @@
                     <div class="col-12 col-md-4">
                         <div class="form-group">
                             <label for="usuario_dni" class="bmd-label-floating">DocIdentidad/RUC</label>
-                            <input type="text" pattern="[0-9-]{1,20}" class="form-control" name="usuarioIdentReg" id="usuario_ident" maxlength="20">
+                            <input type="text" pattern="[0-9-]{10,20}" class="form-control" name="usuarioIdentReg" id="usuario_ident" maxlength="20" required="">
                         </div>
                     </div>
 
                     <div class="col-12 col-md-4">
                         <div class="form-group">
                             <label for="usuario_nombre" class="bmd-label-floating">Nombres</label>
-                            <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,35}" class="form-control" name="usuarioNombreReg" id="usuario_nombre" maxlength="35">
+                            <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,35}" class="form-control" name="usuarioNombreReg" id="usuario_nombre" maxlength="35" required="">
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="form-group">
                             <label for="usuario_apellido" class="bmd-label-floating">Apellidos</label>
-                            <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,35}" class="form-control" name="usuarioApellidoReg" id="usuario_apellido" maxlength="35">
+                            <input type="text" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,35}" class="form-control" name="usuarioApellidoReg" id="usuario_apellido" maxlength="35" required="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
@@ -70,7 +70,7 @@
                     <div class="col-12 col-md-6">
                         <div class="form-group">
                             <label for="usuario_usuario" class="bmd-label-floating">Nombre de usuario</label>
-                            <input type="text" pattern="[a-zA-Z0-9]{1,35}" class="form-control" name="usuarioUsuarioReg" id="usuario_usuario" maxlength="35">
+                            <input type="text" pattern="[a-zA-Z0-9]{1,35}" class="form-control" name="usuarioUsuarioReg" id="usuario_usuario" maxlength="35" required="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
